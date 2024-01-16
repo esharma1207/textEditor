@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #495ce0, #8B139E);
+    overflow: hidden;
+
+
+
+}
+
+.container{
+    background-color: white;
+    width: 470px;
+    height: 360px;
+    padding: 70px;
+    box-shadow: 0px 0px 50px rgb(0,0,0,0.5);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading{
+    color: #E02A8E;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+
+   
+}
+
+.rates{
+    margin-top: 1.5rem;
+    
+}
+.rate1{
+    color: grey;
+}
+.rate2{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.swap{
+    align-self: flex-end;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.options select{
+    padding: 2%;
+    width: 75px;
+
+}
+.input input{
+    all: unset;
+    display: inline-block;
+    margin-top: 1rem;
+    width: 175px;
+    height: 48px;
+    padding: 5px;
+    background-color:  #A69EA6;
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    appearance: textfield;
+}
+
+.target{
+    transform: translateX(-5%);
+}
+
+.result{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #E02A8E;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.result:active{
+    background-color: #701748;
+
+}
